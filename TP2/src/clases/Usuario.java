@@ -62,7 +62,7 @@ public class Usuario {
     			 new Usuario("Usuario1", "passwor1", "100", 500.00, "123", 850.00),
     			 new Usuario("Usuario2", "passwor2", "200", 700.00, "456", 470.00),
     			 new Usuario("Usuario3", "passwor3", "300", 900.00, "789", 788.50),
-    			 new Usuario("Usaurio4", "passwor4", "400", 1250.50, "444", 999.00)
+    			 new Usuario("Usuario4", "passwor4", "400", 1250.50, "444", 999.00)
     			};
     	return users;
     } 
