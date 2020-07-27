@@ -6,6 +6,7 @@ import java.sql.*;
 import java.util.LinkedList;
 
 public class DataPersona {
+	private DataRol dr;
 	
 	public LinkedList<Persona> getAll(){
 		DataRol dr=new DataRol();
@@ -257,8 +258,9 @@ public class DataPersona {
 		return p;
 	}
 
-
 	public Persona deletePerson(Persona p) {
+		dr = new DataRol();
+		dr.removeRolesPerson(p);
 		PreparedStatement stmt= null;
 		ResultSet keyResultSet=null;
 		try {

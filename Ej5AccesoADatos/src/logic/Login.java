@@ -69,11 +69,5 @@ public class Login {
 	public Persona deletePerson(Persona p) {
 		return dp.deletePerson(p);		
 	}
-
-	public void removeRolesPerson(Persona p) {
-		dr.removeRolesPerson(p);
-		
-	}
-
 	
 }

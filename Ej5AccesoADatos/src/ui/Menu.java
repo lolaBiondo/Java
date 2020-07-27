@@ -279,7 +279,6 @@ public class Menu {
 			System.out.println("Persona no eliminada.");
 			break;
 		case "si":
-			ctrlLogin.removeRolesPerson(p);
 			ctrlLogin.deletePerson(p);
 			System.out.println("La persona fue eliminada con éxito!");
 		}
